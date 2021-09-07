@@ -19,7 +19,7 @@ predict = dlib.shape_predictor(".\shape_predictor_68_face_landmarks.dat")
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["right_eye"]
 cap=cv2.VideoCapture(0)
-media = vlc.MediaPlayer("F:\capstone\Master.mp4")
+media = vlc.MediaPlayer("Path_to_video_file")
 media.play()
 flag=0
 while True:
